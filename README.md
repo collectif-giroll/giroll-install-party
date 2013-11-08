@@ -2,6 +2,12 @@
 
 Documents liés aux install party du [Collectif Giroll @ Bordeaux](http://www.giroll.org/).
 
+![Logo Giroll](http://www.giroll.org/themes/giroll/imgs/logo.png)
+
+# Adresse
+
+<iframe style="height: 270px; width: 450px;" src="http://open.mapquest.com/embed?hk=1bjdcE5" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
+
 ## Contact
 
 * Site web [Giroll.org](http://giroll.org/) ;
