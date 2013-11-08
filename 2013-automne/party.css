@@ -97,10 +97,10 @@
   font-weight: bold;
 }
 #party #programme .datetime .dt-end {
-  color: #ccc;
+  color: #aaa;
 }
 #party #programme .datetime span {
-  color: #ccc;
+  color: #aaa;
   display: block;
   text-align: center;
 }
