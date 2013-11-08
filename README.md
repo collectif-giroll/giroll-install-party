@@ -1,10 +1,11 @@
 # Giroll Install Party
 
-Documents liés aux install party du [Collectif Giroll @ Bordeaux](http://www.giroll.org/). ![Logo Giroll](http://www.giroll.org/themes/giroll/imgs/logo.png)
+Documents liés aux install party du [Collectif Giroll @ Bordeaux](http://www.giroll.org/). <br/>
+![Logo Giroll](http://www.giroll.org/themes/giroll/imgs/logo.png)
 
 ## Adresse
 
-![plan d accès centre st pierre bordeaux.OSM](https://raw.github.com/edouard-lopez/giroll-install-party/master/plan-d-accès-centre-st-pierre-bordeaux.OSM.png)
+[![plan d accès centre st pierre bordeaux.OSM](https://raw.github.com/edouard-lopez/giroll-install-party/master/plan-d-accès-centre-st-pierre-bordeaux.OSM.png)](http://mapq.st/1bjjpQu)
 <iframe style="height: 270px; width: 450px;" src="http://open.mapquest.com/embed?hk=1bjdcE5" marginwidth="0" marginheight="0" frameborder="0" scrolling="no"></iframe>
 
 ## Contact
