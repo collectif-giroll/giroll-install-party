@@ -1,0 +1,106 @@
+#party .annulee
+,#party .annulee *
+{
+  color: #ddd;
+  text-shadow: 1px 1px 1px #fff;
+}
+#party a {
+  font-weight: normal;
+}
+#party .figure.right {
+  float: right;
+}
+#party .preview {
+  text-align: center;
+}
+#party .preview img {
+  margin: 0 auto;
+  width: 33%;
+  height: 33%;
+}
+#party h3 {
+  margin-top: 1.25em
+}
+#party h4 {
+  margin-top: 1em;
+  margin-bottom: .5em;
+}
+#party dl {
+  display: list;
+}
+#party .dt {
+  margin-left: 2em;
+  margin-right: .5em;
+  list-style-type: circle;
+  display: list-item;
+}
+#party .location {
+  white-space: pre-line;
+  padding: 0 0.5em;
+  margin-bottom: 1em;
+}
+#party #formats-des-sessions dt,
+#party #ou dt
+{
+  float: left;
+}
+#party .session .p-name .subtitle::before
+{
+  content: '\2009: ';
+}
+
+#party .session .p-name,
+#party .session .p-name>a
+{
+  font-weight: bold;
+}
+#party dd {
+  margin-left: 4.5em;
+}
+#party .session:target, #party .session:target+dd {
+  background: #ffffcc;
+}
+#party address {
+  margin-left: 2em;
+  margin-bottom: 2em;
+  border-left: thin solid #ddd;
+  padding-left: 0em;
+}
+#party .pilcrow {
+  color: #ddd;
+}
+#party .pilcrow:hover {
+  color: #B00000;
+}
+
+#party #programme .session {
+  /*margin-left: 2em;*/
+  margin-right: .5em;
+  list-style-type: none;
+  display: list-item;
+  /*margin-left: 2em;*/
+  margin-top: 1em;
+  clear: left;
+}
+#party #programme dd {
+  margin-left: 2em;
+}
+#party #programme .session .datetime {
+  margin-right: .5em;
+  float: left;
+  display: block;
+}
+#party #programme .datetime time {
+  display: block;
+}
+#party #programme .datetime .dt-start {
+  font-weight: bold;
+}
+#party #programme .datetime .dt-end {
+  color: #ccc;
+}
+#party #programme .datetime span {
+  color: #ccc;
+  display: block;
+  text-align: center;
+}
