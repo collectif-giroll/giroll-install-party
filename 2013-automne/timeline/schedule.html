@@ -10,6 +10,49 @@
     <script type="text/javascript" src="./lib/jquery-min.js" ></script>
     <script type="text/javascript" src="./js/timeline.js" ></script>
     <style type="text/css" media="screen">
+      #banner {
+        border: 1px solid transparent;
+        border-left: 0;
+        border-right: 0;
+        color: #C09853;
+        background-color: #FCF8E3;
+        border-color: #FAEBCC;
+
+        color: #3A87AD;
+        background-color: #D9EDF7;
+        border-color: #BCE8F1;
+
+        opacity: .5;
+        font-size: x-small;
+
+        width: 100%;
+        display: inline-block;
+
+        position: absolute;
+        left: 0;
+        top: 0;
+        margin: 0;
+        padding: .5em 0;
+        z-index: 1000;
+      }
+      #banner.bottom {
+        top: auto;
+        bottom: 196px;
+      }
+      #banner:hover {
+        opacity: 1;
+      }
+      #banner > p {
+        padding: 0;
+        padding-left: 20px;
+        margin: 0 .5em;
+        background: url("css/themes/information.png") no-repeat scroll 0% 50% transparent;
+      }
+      @media (max-width:479px){
+        #banner .extra {
+          display: none;
+        }
+      }
       .date * {
         float: left;
       }
@@ -28,11 +71,12 @@
     </style>
   </head>
   <body>
-    <noscript>
+    <div id="banner" class="top">
       <p>
-        <a href="http://www.giroll.org/post/2013/09/24/Giroll-Install-Party-Automne-2013-Samedi-23-Novembre">Informations et programmes de la Giroll Party du Samedi 23 Novembre</a>
+        Accéder aux <a href="http://www.giroll.org/post/2013/09/24/Giroll-Install-Party-Automne-2013-Samedi-23-Novembre#infos-pratiques">informations pratiques</a><span class="extra"> de la Giroll Party</span>.
       </p>
-
+    </div>
+    <noscript>
       <section>
         <h3>
           Infos pratiques
@@ -145,7 +189,7 @@
         var embed_path = "http://cdn.knightlab.com/libs/timeline/latest/";
         var timeline_config = {
             width:              '100%',
-            height:             window.screen.height,
+            height:             window.screen.height-1,
             source:             'https://docs.google.com/spreadsheet/pub?key=0AoOa5dSXU3xEdGgyb2IyUEZVdlRFZGNLLXAwdGlDT1E&output=html',
             embed_id:           'timeline_embed',               //OPTIONAL USE A DIFFERENT DIV ID FOR EMBED
             start_at_end:       false,                          //OPTIONAL START AT LATEST DATE
